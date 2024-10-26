@@ -212,3 +212,485 @@
 
 
 /* Banner section end here */
+
+/* Habits section start here */
+
+.Habits-section-containur {
+    margin: auto;
+    width: 80%;
+    height: 460px;
+    margin-top: 50px;
+
+}
+
+.Habits-content {
+    width: 70%;
+    height: 140px;
+    margin-left: 115px;
+}
+
+.Habits-content>h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    text-align: center;
+}
+
+.Habits-content>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 24px;
+    margin-top: -15px;
+}
+
+.habit-card-containur {
+    display: flex;
+
+}
+
+.Habit-card-1 {
+    width: 25%;
+    height: 315px;
+
+}
+
+.Habit-card-1>img {
+    border-radius: 150px;
+    padding: 15px;
+
+}
+
+.Habit-card-1>h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Habit-card-1>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 5;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.Habit-card-2 {
+    width: 25%;
+    height: 315px;
+}
+
+.Habit-card-2>img {
+    border-radius: 150px;
+    padding: 15px;
+
+}
+
+.Habit-card-2>h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Habit-card-2>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 5;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.Habit-card-3 {
+    width: 25%;
+    height: 315px;
+}
+
+.Habit-card-3>img {
+    border-radius: 150px;
+    padding: 15px;
+
+}
+
+.Habit-card-3>h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Habit-card-3>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 5;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.Habit-card-4 {
+    width: 25%;
+    height: 315px;
+}
+
+.Habit-card-4>img {
+    border-radius: 150px;
+    padding: 15px;
+
+}
+
+.Habit-card-4>h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Habit-card-4>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 5;
+    text-align: center;
+    margin-top: -10px;
+}
+
+/* Habit section end here */
+
+/* RunExtra-section start here */
+
+.RunExtra-section {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.RunExtra-text {
+    width: 50%;
+    height: 312px;
+}
+
+.RunExtra-text>h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+}
+
+.RunExtra-text>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    width: 300px;
+}
+
+.RunExtra-text>button {
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.RunExtra-img {
+    width: 50%;
+    height: 312px;
+}
+
+.RunExtra-img>img {
+    border-radius: 18px;
+    width:100%;
+    height: 100%;
+}
+/* RunExtra-section end here */
+/* challenge-part-star-here */
+
+.Memberships-containur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 30px;
+    height: auto;
+}
+
+.Memberships-content {
+    margin: auto;
+    width: 80%;
+}
+
+.Memberships-content>h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    text-align: center;
+}
+
+.Memberships-content > p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.Memberships-card-container {
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.Memberships-card {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.512);
+    height: 220px;
+    margin-left: 3px;
+    padding: 40px 20px;
+    width:200px;
+
+}
+
+.Memberships-card>h2 {
+    color: white;
+    text-align: center;
+    margin-top: px;
+
+}
+
+.Memberships-card>p {
+    color: rgb(230, 82, 60);
+    font-size: 50px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.Memberships-card button{
+    font-style: normal;
+    font-family: inter;
+
+    background-color: rgb(62, 62, 62);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 16px;
+    border:1px solid white;
+}
+
+
+/* challenge-part-end-here */
+.Bmi-text-containur {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 120px;
+}
+
+.Bmi-text-containur>h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    margin-top: -7px;
+    margin-left: 200px;
+
+}
+
+.Bmi-text-containur>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+
+/* BMI Calculator Chart start here */
+
+
+.Bmi-containur {
+    background: rgb(34, 34, 34);
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+}
+
+.BMI-Calculator-Chart {
+    width: 40%;
+    height: 346px;
+    margin-left: 100px;
+}
+
+.Calculate-your-BMI {
+    width: 40%;
+    height: 398px;
+}
+
+
+
+.BMI-Calculator-Chart>h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+}
+
+.table-row {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+}
+
+.table-body {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+}
+
+.table-row-bmi {
+    text-align: left;
+}
+
+
+
+.Calculate-your-BMI>h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+
+}
+
+.Calculate-your-BMI>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+
+.BMI-form-containur {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+
+}
+
+.height {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 50px;
+
+}
+
+.height-content,
+.weight-content,
+.age-content,
+.sex-content {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    width: 198px;
+    height: 49px;
+
+
+}
+
+.activity-content {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    width: 420px;
+    height: 50px;
+
+}
+
+.weight {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 50px;
+
+}
+
+.age {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 50px;
+}
+
+.sex {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 50px;
+
+}
+
+.sex-option {
+    background-color: black;
+}
+
+.activati {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    grid-column: span 2;
+    width: 420px;
+    height: 50px;
+}
+
+.btn-1 {
+    border-radius: 50px;
+    background: rgb(230, 83, 60);
+    border: none;
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+/* BMI Calculator Chart End here */
