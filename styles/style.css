@@ -70,6 +70,7 @@
     display: none;
 
 }
+
 /* navbar section end here */
 
 
@@ -82,7 +83,7 @@
     max-width: 1044px;
     width: 100%;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 .Banner-section-A {
@@ -99,10 +100,12 @@
     font-size: 50px;
     font-weight: 700px;
 }
-.Banner-section-A  h1> #italic{
+
+.Banner-section-A h1>#italic {
     font-size: 60px;
     font-family: "Tangerine", serif;
 }
+
 .Banner-section-A>p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
@@ -376,7 +379,7 @@
     width: 80%;
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .RunExtra-text {
@@ -416,13 +419,14 @@
 
 .RunExtra-img>img {
     border-radius: 18px;
-    width:100%;
+    width: 100%;
     height: 100%;
 }
+
 /* RunExtra-section end here */
 /* challenge-part-star-here */
 
-.Memberships-containur{
+.Memberships-containur {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -445,7 +449,7 @@
     text-align: center;
 }
 
-.Memberships-content > p {
+.Memberships-content>p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 12px;
@@ -468,14 +472,14 @@
     border: 1px solid gray;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     border-radius: 18px;
     background: rgba(0, 0, 0, 0.512);
     height: 220px;
     margin-left: 3px;
     padding: 40px 20px;
-    width:200px;
+    width: 200px;
 
 }
 
@@ -493,7 +497,7 @@
     margin-top: -5px;
 }
 
-.Memberships-card button{
+.Memberships-card button {
     font-style: normal;
     font-family: inter;
 
@@ -501,7 +505,7 @@
     color: white;
     padding: 10px 30px;
     border-radius: 16px;
-    border:1px solid white;
+    border: 1px solid white;
 }
 
 
@@ -693,3 +697,320 @@ th {
 
 
 /* BMI Calculator Chart End here */
+
+/* Meet Our Team start here */
+
+.our-team-heading h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.our-team-heading p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20pex;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    max-width: 671px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.our-team-img {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.team-1 {
+    position: relative;
+    border-radius: 20px;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+.team-1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+
+}
+
+.team-text {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    margin-left: 20px;
+}
+
+.team-text h6 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.team-text p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -40px;
+}
+
+/* Meet Our Team end here */
+/* footer section start here */
+
+.footer-contein {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
+}
+
+.footer-conteinar {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.get-start-1>h4 {
+    margin-left: -100px;
+    width: 200px;
+
+}
+
+.get-start-1>ul {
+    margin-left: -130px;
+    width: 200px;
+}
+
+.get-start-2>h4 {
+    margin-left: -150px;
+    width: 200px;
+
+
+}
+
+.get-start-2>ul {
+    margin-left: -180px;
+    width: 200px;
+}
+
+.footer-brand h1 {
+    color: rgb(230, 83, 60);
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-top: 75px;
+
+}
+
+.footer-brand p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.get-start-1-lists,
+.get-start-2-lists {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.get-start-1-list,
+.get-start-2-list {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.get-start-1 h4,
+.get-start-2 h4 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.footer-line {
+    border: 1px solid red;
+    margin-bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-contein {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
+}
+
+.footer-conteinar {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.get-start-2,
+.get-start-1 {
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.footer-brand h1 {
+    color: rgb(230, 83, 60);
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-top: 75px;
+
+}
+
+.footer-brand p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.get-start-1-lists,
+.get-start-2-lists {
+    list-style: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.get-start-1-list,
+.get-start-2-list {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.get-start-1 h4,
+.get-start-2 h4 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.footer-line {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.copy-right {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.package-conteinar {
+    color: whitesmoke;
+}
+
+.package-conteinar h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.package-conteinar p {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.package-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 70px;
+    padding: 60px 20px;
+    border-radius: 20px;
+}
+
+.menu-item img {
+    border-radius: 18px;
+    width: 100%;
+}
+
+.menu-item {
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(29, 28, 28, 0.2);
+    padding: 15px;
+    background: rgb(185, 28, 4);
+    border-radius: 20px;
+
+}
+
+.menu-item h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-item h6 {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.price {
+    font-size: 2rem;
+}
+
+.discount {
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.menu-item {
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scaleX(1) scaleY(1.2);
+
+}
+
+.sex-option {
+    color: rgb(255, 255, 255);
+    background-color: rgb(185, 28, 4);
+    font-size: 1rem;
+    font-weight: 400;
+}
