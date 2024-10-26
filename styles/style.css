@@ -1014,3 +1014,263 @@ th {
     font-size: 1rem;
     font-weight: 400;
 }
+
+
+
+
+
+/* responsive section start here */
+@media screen and (max-width:576px) {
+
+    .menu-container {
+        display: none;
+    }
+
+    .hambergur-menu {
+        display: block;
+        color: white;
+        margin-top: 40px;
+        margin-right: -40px;
+    }
+
+    .Brand-name {
+        margin-top: 30px;
+        margin-left: -60px;
+    }
+
+    .Banner-container {
+        background-image: url("");
+        flex-direction: column;
+        width: auto;
+
+
+    }
+
+    .Banner-section-A {
+        width: auto;
+        margin-left: 20px;
+
+    }
+
+
+    .img-card-1 {
+        margin-bottom: -370px;
+        margin-left: -62px;
+        width: 160px;
+        height: 75px;
+    }
+
+    .img-card-2 {
+        margin-left: -170px;
+        margin-top: 340px;
+    }
+
+    .Banner-img {
+        margin-left: 30px;
+        width: auto;
+        height: auto;
+    }
+
+    .Banner-section-A>h1 {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+
+    .Banner-section-A>p {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    .Banner-section-A-btn-container {
+        padding: 9px 25px;
+    }
+
+    .Habits-section-containur {
+        margin-top: 550px;
+    }
+
+    .Habits-content {
+        width: 200px;
+        margin-left: -40px;
+    }
+
+    .Habits-content>h1 {
+        font-size: 30px;
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .Habits-content>p {
+        margin-top: 10px;
+        font-size: 15px;
+        width: 310px;
+        margin-left: 35px;
+
+    }
+
+
+
+
+    .habit-card-containur {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .Habit-card-1 {
+        margin-left: 50px;
+        width: 200px;
+    }
+
+
+    .Habit-card-2 {
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    .Habit-card-3 {
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    .Habit-card-4 {
+        margin-left: 50px;
+        width: 200px;
+    }
+
+    .RunExtra-section {
+        margin-top: 1000px;
+        flex-direction: column;
+        width: 370px;
+        height: 550px;
+    }
+
+    .RunExtra-text>button {
+        width: 300px;
+    }
+
+    .Memberships-containur {
+        flex-direction: column;
+        width: 370px;
+        height: 1000px;
+    }
+
+    .Memberships-card {
+        margin-top: 00px;
+        width: 260px;
+        margin-left: 70px;
+    }
+
+
+    .Bmi-text-containur>h1 {
+        margin-left: -10px;
+    }
+
+    .Bmi-text-containur>p {
+        font-size: 12px;
+        width: 80%px;
+        margin-left: -20px;
+    }
+
+    .Bmi-containur {
+        width: 100%;
+        height: 800px;
+        margin-bottom: 30px;
+
+    }
+
+    .BMI-Calculator-Chart {
+        width: 300px;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .Calculate-your-BMI {
+        margin-top: 350px;
+        margin-left: -500px;
+
+    }
+
+    .Calculate-your-BMI>h1 {
+        width: 300px;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+
+    .Calculate-your-BMI>p {
+        width: 300px;
+        margin-left: 200px;
+    }
+
+    .BMI-form-containur {
+        margin-left: 200px;
+    }
+
+    .height,
+    .height-content,
+    .age,
+    .age-content {
+        width: 170px;
+    }
+
+    .weight,
+    .sex {
+        width: 150px;
+        margin-left: -8px;
+    }
+
+    .weight-content,
+    .sex-content {
+        width: 149px;
+    }
+
+    .activati,
+    .activity-content {
+        width: 350px;
+
+    }
+
+    .our-team-img {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+    }
+
+    #team-3-content {
+        margin-top: 50px;
+    }
+
+    #team-4-content {
+        margin-top: -70px;
+    }
+
+    #team-5-content {
+        margin-top: 50px;
+    }
+
+    #team-6-content {
+        margin-top: -10px;
+    }
+
+
+    .footer-conteinar {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin-top: -70px;
+    }
+
+    .get-start-2 {
+        margin-left: 150px;
+        margin-top: 0px;
+
+
+    }
+
+    .get-start-1 {
+        margin-left: 100px;
+    }
+
+    .get-start-2 {
+        margin-top: -70px;
+    }
+}
