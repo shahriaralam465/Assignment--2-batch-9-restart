@@ -99,7 +99,10 @@
     font-size: 50px;
     font-weight: 700px;
 }
-
+.Banner-section-A  h1> #italic{
+    font-size: 60px;
+    font-family: "Tangerine", serif;
+}
 .Banner-section-A>p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
