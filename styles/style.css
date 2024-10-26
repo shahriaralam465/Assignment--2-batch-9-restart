@@ -1,0 +1,211 @@
+.font {
+    font-family: "Inter", sans-serif;
+}
+
+.Background-cl {
+    background: rgb(0, 0, 0);
+}
+
+.body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background: linear-gradient(to top, black, rgba(39, 38, 38, 0.76) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    padding-bottom: 76px;
+}
+
+/* navbar section start here */
+.navbar {
+    /* border: 2px solid lime ; */
+    width: 1044px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Brand-name {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.menu-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.123);
+    border-radius: 30px;
+
+
+}
+
+.Home {
+
+    background: rgb(230, 83, 60);
+    border-radius: 46px;
+    padding: 9px 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hambergur-menu {
+    display: none;
+
+}
+/* navbar section end here */
+
+
+
+
+/* Banner section start here */
+.Banner-container {
+    /* border: 2px solid lime ; */
+    margin: auto;
+    max-width: 1044px;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+
+.Banner-section-A {
+    width: 50%;
+    height: 400px;
+
+}
+
+.Banner-section-A>h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+.Banner-section-A>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.Banner-section-A-btn-container {
+    margin-top: 30px;
+
+}
+
+.btn-join-club {
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    font-family: Inter;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 25px;
+
+}
+
+.btn-Download-app {
+    color: rgb(255, 255, 255);
+    background: rgb(7, 7, 7);
+    font-family: Inter;
+    padding: 9px 25px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    margin-left: 10px;
+}
+
+.Banner-section-B {
+    width: 50%;
+    height: 400px;
+
+}
+
+.Banner-img {
+    height: 400px;
+    width: auto;
+    margin-left: 100px;
+}
+
+
+.img-card-1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(200px);
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 40%;
+    left: 73%;
+    width: 170px;
+    height: 90px;
+}
+
+.card-1-tittle-a {
+    color: rgb(250, 250, 249);
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.card-1-tittle-b {
+    color: rgba(255, 255, 255, 0.65);
+    margin-left: 35px;
+    margin-top: -15px;
+}
+
+.img-card-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(2px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: absolute;
+    bottom: 15%;
+    left: 49%;
+    top: 85%;
+    width: 180px;
+    height: 90px;
+
+}
+
+.icon {
+    background: rgb(230, 83, 60);
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.card-2-tittle-a {
+    color: rgb(250, 250, 249);
+}
+
+.card-2-tittle-b {
+    color: rgba(239, 237, 232, 0.65);
+}
+
+
+/* Banner section end here */
